@@ -10,6 +10,8 @@
     <modules>
         <module>03-objects</module>
         <module>04-operators</module>
+        <module>05-control-flow</module>
+        <module>onjava</module>
     </modules>
 
     <packaging>pom</packaging>
