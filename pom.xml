@@ -12,6 +12,9 @@
         <module>04-operators</module>
         <module>05-control-flow</module>
         <module>onjava</module>
+        <module>06-housekeeping</module>
+        <module>07-implemention-hiding</module>
+        <module>08-reuse</module>
     </modules>
 
     <packaging>pom</packaging>
