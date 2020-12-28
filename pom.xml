@@ -15,6 +15,7 @@
         <module>06-housekeeping</module>
         <module>07-implemention-hiding</module>
         <module>08-reuse</module>
+        <module>09-polymorphism</module>
     </modules>
 
     <packaging>pom</packaging>
