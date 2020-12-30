@@ -17,6 +17,7 @@
         <module>08-reuse</module>
         <module>09-polymorphism</module>
         <module>10-interfaces</module>
+        <module>11-inner-classes</module>
     </modules>
 
     <packaging>pom</packaging>
