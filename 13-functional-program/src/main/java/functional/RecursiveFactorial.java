@@ -1,0 +1,18 @@
+package functional;
+
+/**
+ * V1.0 created by wujf  on  2021-01-01
+ */
+interface IntCall{
+    int call(int arg);
+}
+public class RecursiveFactorial {
+    static IntCall fact;
+
+    public static void main(String[] args) {
+        fact = n -> n == 0 ? 1 : n * fact.call(n - 1);
+        for (int i = 0; i < 10; i++) {
+            System.out.println(fact.call(i));
+        }
+    }
+}

@@ -20,6 +20,7 @@
         <module>11-inner-classes</module>
         <module>12-collections</module>
         <module>19-type-information</module>
+        <module>13-functional-program</module>
     </modules>
 
     <packaging>pom</packaging>
