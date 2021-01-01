@@ -21,6 +21,7 @@
         <module>12-collections</module>
         <module>19-type-information</module>
         <module>13-functional-program</module>
+        <module>14-streams</module>
     </modules>
 
     <packaging>pom</packaging>
