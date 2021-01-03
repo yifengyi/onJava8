@@ -22,6 +22,7 @@
         <module>19-type-information</module>
         <module>13-functional-program</module>
         <module>14-streams</module>
+        <module>15-exceptions</module>
     </modules>
 
     <packaging>pom</packaging>
