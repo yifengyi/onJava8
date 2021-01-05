@@ -14,7 +14,6 @@
         <dependency>
             <groupId>com.daily</groupId>
             <artifactId>onjava</artifactId>
-            <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
 
