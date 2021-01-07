@@ -28,11 +28,11 @@ public class PathInfo {
   }
 
   public static void main(String[] args) {
-    /*System.out.println(System.getProperty("os.name"));
-    info(Paths.get("C:", "path", "to", "nowhere", "NoFile.txt"));*/
+    System.out.println(System.getProperty("os.name"));
+    info(Paths.get("C:", "path", "to", "nowhere", "NoFile.txt"));
     Path p = Paths.get("src","main","java","files","PathInfo.java");
     info(p);
-    /*Path ap = p.toAbsolutePath();
+    Path ap = p.toAbsolutePath();
     info(ap);
     info(ap.getParent());
     try {
@@ -44,6 +44,6 @@ public class PathInfo {
     System.out.println("URI: " + u);
     Path puri = Paths.get(u);
     System.out.println(Files.exists(puri));
-    File f = ap.toFile(); // Don't be fooled*/
+    File f = ap.toFile(); // Don't be fooled
   }
 }

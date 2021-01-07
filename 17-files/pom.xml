@@ -12,5 +12,11 @@
     <artifactId>17-files</artifactId>
 
     <name>17-files</name>
+    <dependencies>
+        <dependency>
+            <groupId>com.daily</groupId>
+            <artifactId>onjava</artifactId>
+        </dependency>
+    </dependencies>
 
 </project>
