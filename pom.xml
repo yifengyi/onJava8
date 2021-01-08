@@ -25,6 +25,8 @@
         <module>15-exceptions</module>
         <module>16-validating-your-code</module>
         <module>17-files</module>
+        <module>18-strings</module>
+        <module>20-generics</module>
     </modules>
 
     <packaging>pom</packaging>
