@@ -1,6 +1,6 @@
 package collections;
 
-import typeifno.pets.*;
+import typeinfo.pets.*;
 
 import java.util.*;
 

@@ -1,9 +1,9 @@
 package collections;
 
-import typeifno.pets.Cat;
-import typeifno.pets.Dog;
-import typeifno.pets.Hamster;
-import typeifno.pets.Pet;
+import typeinfo.pets.Cat;
+import typeinfo.pets.Dog;
+import typeinfo.pets.Hamster;
+import typeinfo.pets.Pet;
 
 import java.util.HashMap;
 import java.util.Map;

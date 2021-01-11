@@ -10,6 +10,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>19-type-information</artifactId>
-
+    <dependencies>
+        <dependency>
+            <groupId>com.daily</groupId>
+            <artifactId>onjava</artifactId>
+        </dependency>
+    </dependencies>
 
 </project>

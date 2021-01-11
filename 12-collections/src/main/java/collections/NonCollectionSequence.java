@@ -1,7 +1,7 @@
 package collections;
 
-import typeifno.pets.Pet;
-import typeifno.pets.Pets;
+import typeinfo.pets.Pet;
+import typeinfo.pets.Pets;
 
 import java.util.Iterator;
 
