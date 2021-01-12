@@ -12,5 +12,11 @@
     <artifactId>20-generics</artifactId>
 
     <name>20-generics</name>
+    <dependencies>
+        <dependency>
+            <groupId>com.daily</groupId>
+            <artifactId>onjava</artifactId>
+        </dependency>
+    </dependencies>
 
 </project>
