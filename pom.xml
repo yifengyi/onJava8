@@ -27,6 +27,7 @@
         <module>17-files</module>
         <module>18-strings</module>
         <module>20-generics</module>
+        <module>21-arrays</module>
     </modules>
 
     <packaging>pom</packaging>
