@@ -12,5 +12,20 @@
     <artifactId>22-enumerations</artifactId>
 
     <name>22-enumerations</name>
-
+    <dependencies>
+        <dependency>
+            <groupId>com.daily</groupId>
+            <artifactId>onjava</artifactId>
+        </dependency>
+    </dependencies>
+    <build>
+        <resources>
+            <resource>
+                <directory>src/main/java</directory>
+                <includes>
+                    <include>**/**.txt</include>
+                </includes>
+            </resource>
+        </resources>
+    </build>
 </project>
