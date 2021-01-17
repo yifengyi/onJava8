@@ -3,7 +3,7 @@ package onjava;
 /**
  * V1.0 created by wujf  on  2021-01-16
  */
-public class ConvertTo {
+public interface ConvertTo {
     static boolean[] primitive(Boolean[] in){
         boolean[] res = new boolean[in.length];
 

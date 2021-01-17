@@ -12,5 +12,18 @@
     <artifactId>21-arrays</artifactId>
 
     <name>21-arrays</name>
-
+    <dependencies>
+        <dependency>
+            <groupId>com.daily</groupId>
+            <artifactId>onjava</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.openjdk.jmh</groupId>
+            <artifactId>jmh-generator-reflection</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.openjdk.jmh</groupId>
+            <artifactId>jmh-generator-asm</artifactId>
+        </dependency>
+    </dependencies>
 </project>

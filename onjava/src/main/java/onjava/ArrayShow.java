@@ -5,7 +5,7 @@ import java.util.Arrays;
 /**
  * V1.0 created by wujf  on  2021-01-16
  */
-public class ArrayShow {
+public interface ArrayShow {
     static void show(Object[] a){
         System.out.println(Arrays.toString(a));
     }

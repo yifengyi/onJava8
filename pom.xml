@@ -28,6 +28,7 @@
         <module>18-strings</module>
         <module>20-generics</module>
         <module>21-arrays</module>
+        <module>22-enumerations</module>
     </modules>
 
     <packaging>pom</packaging>
