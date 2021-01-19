@@ -29,6 +29,7 @@
         <module>20-generics</module>
         <module>21-arrays</module>
         <module>22-enumerations</module>
+        <module>23-annotations</module>
     </modules>
 
     <packaging>pom</packaging>
