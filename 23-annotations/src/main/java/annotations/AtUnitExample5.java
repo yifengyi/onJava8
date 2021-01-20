@@ -23,7 +23,7 @@ public class AtUnitExample5 {
   static AtUnitExample5 create() {
     String id = Integer.toString(counter++);
     try {
-      output = new PrintWriter("Test" + id + ".txt");
+      output = new PrintWriter("target/classes/Test" + id + ".txt");
     } catch(IOException e) {
       throw new RuntimeException(e);
     }
