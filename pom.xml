@@ -30,6 +30,7 @@
         <module>21-arrays</module>
         <module>22-enumerations</module>
         <module>23-annotations</module>
+        <module>24-concurrent-programming</module>
     </modules>
 
     <packaging>pom</packaging>
