@@ -12,5 +12,14 @@
     <artifactId>24-concurrent-programming</artifactId>
 
     <name>24-concurrent-programming</name>
-
+    <dependencies>
+        <dependency>
+            <groupId>com.daily</groupId>
+            <artifactId>onjava</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+        </dependency>
+    </dependencies>
 </project>
