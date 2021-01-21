@@ -31,6 +31,7 @@
         <module>22-enumerations</module>
         <module>23-annotations</module>
         <module>24-concurrent-programming</module>
+        <module>25-patterns</module>
     </modules>
 
     <packaging>pom</packaging>
