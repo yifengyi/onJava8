@@ -1,6 +1,7 @@
 package patterns;
 
 /**
+ * 单例模式
  * 1.0v created by wujf on 2021-1-21
  */
 interface Resource {
@@ -10,6 +11,7 @@ interface Resource {
 }
 
 final class Singleton {
+  //私有化Resource 实现类 用以实现单利
   private static final class ResourceImpl implements Resource {
     private int i;
 
@@ -27,12 +29,12 @@ final class Singleton {
       i = x;
     }
   }
-  private static class ResourceHoler{
+  private static class ResourceHolder {
     private static Resource resource = new ResourceImpl(47);
   }
 
   public static Resource getResource(){
-    return ResourceHoler.resource;
+    return ResourceHolder.resource;
   }
 }
 
@@ -45,7 +47,8 @@ public class SingletonPattern {
     System.out.println(r.getValue());
 
     try {
-      // Singleton s = r2.clone();//
+      //final 不能clone
+      // Singleton s = (Singleton)r2.clone();//
     } catch (Exception e) {
       throw new RuntimeException(e);
     }
