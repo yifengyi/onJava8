@@ -9,7 +9,11 @@ interface Resource {
 
   void setValue(int x);
 }
-
+/*
+ * 由于这不是从Cloneable基类继承而且没有添加可克隆性，
+ * 因此将其设置为final可防止通过继承添加可克隆性。
+ * 这也实现了线程安全的延迟初始化：
+ */
 final class Singleton {
   //私有化Resource 实现类 用以实现单利
   private static final class ResourceImpl implements Resource {
@@ -20,12 +24,12 @@ final class Singleton {
     }
 
     @Override
-    public int getValue() {
+    public synchronized int getValue() {
       return i;
     }
 
     @Override
-    public void setValue(int x) {
+    public synchronized void setValue(int x) {
       i = x;
     }
   }

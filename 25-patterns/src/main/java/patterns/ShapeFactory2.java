@@ -1,5 +1,6 @@
 package patterns;
 
+import patterns.shapes.BadShapeCreation;
 import patterns.shapes.FactoryMethod;
 import patterns.shapes.FactoryTest;
 import patterns.shapes.Shape;
@@ -11,6 +12,7 @@ import java.util.Map;
 
 /**
  * 1.0v created by wujf on 2021-1-21
+ * 动态工厂
  */
 public class ShapeFactory2 implements FactoryMethod {
   Map<String, Constructor> factories = new HashMap<>();
@@ -21,7 +23,7 @@ public class ShapeFactory2 implements FactoryMethod {
       return Class.forName("patterns.shapes." + id).getConstructor();
     } catch (ClassNotFoundException
             | NoSuchMethodException e) {
-      throw new RuntimeException(e);
+      throw new BadShapeCreation(id);
     }
   }
 
@@ -29,6 +31,9 @@ public class ShapeFactory2 implements FactoryMethod {
   @Override
   public Shape create(String type) {
     try {
+      /* computeIfAbsent() 方法对 hashMap
+         中指定 key 的值进行重新计算，
+         如果不存在这个 key，则添加到 hasMap 中。*/
       return (Shape) factories
               .computeIfAbsent(type, ShapeFactory2::load)
               .newInstance();

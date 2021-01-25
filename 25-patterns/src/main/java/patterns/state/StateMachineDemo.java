@@ -3,6 +3,7 @@ package patterns.state;
 import onjava.Nap;
 
 /**
+ * 将系统从一种状态移动到另一种状态的代码通常是模板方法模式
  * 1.0v created by wujf on 2021-1-21
  */
 interface State {
@@ -14,6 +15,7 @@ abstract class StateMachine {
 
   protected abstract boolean changeState();
 
+  //模板方法
   protected final void runAll() {
     while (changeState()) {
       currentState.run();

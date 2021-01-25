@@ -4,6 +4,7 @@ import patterns.shapes.*;
 
 /**
  * 1.0v created by wujf on 2021-1-21
+ * 工厂创建1：显示创建
  */
 public class ShapeFactory1 implements FactoryMethod {
   @Override

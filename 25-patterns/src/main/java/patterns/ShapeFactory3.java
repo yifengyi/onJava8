@@ -10,6 +10,7 @@ import java.util.function.Supplier;
 import java.util.stream.Stream;
 
 /**
+ *
  * 1.0v created by wujf on 2021-1-21
  */
 interface PolymorphicFactory{
